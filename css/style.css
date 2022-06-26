@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+header{
+    width: 50%;
+    height: 800px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F7FAFC;
+}
+
+section{
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #FFFFFF;
+}
+
+.conteudo{
+    margin-top: 20%;
+}
+
+.text1{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1A202C;
+}
+
+.text2{
+    margin-top: 7px;
+    margin-bottom: 39px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+
+
+    color: #1A202C;
+}
+
+.labelemail{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A202C;
+}
+
+.inputemail{
+    width: 350px;
+    height: 50px;
+    bottom: 56.44%;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.cont2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Lato';
+    font-style: normal;
+
+    font-size: 14px;
+}
+
+.checkbox1{
+    box-sizing: border-box;
+
+    background: #F7FAFC;
+    border: 1px solid #E8E8E8;
+}
+
+.link1{
+    color: #2B6CB0;
+}
+
+.botaoentrar{
+    margin-bottom: 15px;
+    width: 347px;
+    height: 50px;
+    border: none;
+    background: #04C45C;
+    border-radius: 5px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.botaogoogle{
+    margin-bottom: 162px;
+    width: 347px;
+    height: 50px;
+    border: none;
+    background: #1A202C;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.rodape{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A202C;
+}
